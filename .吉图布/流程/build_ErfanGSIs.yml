@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.1.0.PCHCNXM/jason_images_V12.0.1.0.PCHCNXM_20200731.0000.00_9.0_cn_9bf2b14cde.tgz
+  ROM_URL: https://bigota.d.miui.com/V12.0.1.0.PCHCNXM/miui_MINote3_V12.0.1.0.PCHCNXM_b412afcc14_9.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer got final/GSI.zip
+              ./transfer gof final/GSI.zip
 
          
             
